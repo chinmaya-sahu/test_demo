@@ -1,0 +1,9 @@
+demo text file for git.
+create a new repository on the command line
+echo "# test_demo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/chinmaya-sahu/test_demo.git
+git push -u origin main
